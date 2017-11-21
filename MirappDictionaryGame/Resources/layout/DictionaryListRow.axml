@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:background="@drawable/list_item_bg"
+   android:layout_height="wrap_content" android:padding="6dp">
+  <TextView
+      android:id="@+id/DictonaryRowWordID"
+      android:visibility="invisible"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/MyTextColor"
+      android:textSize="1dp"
+      android:paddingRight="6dp"
+      android:text="" />
+  <TextView
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:id="@+id/DictonaryRowWord"
+      android:layout_width="110dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/MyGray"
+      android:textSize="12dp"
+      android:paddingRight="2dp"
+      android:text="Sample Text" />
+  <TextView
+      android:layout_toRightOf="@+id/DictonaryRowWord"
+      android:id="@+id/DictonaryRowToWord"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/MyGray"
+      android:textSize="12dp"
+      android:paddingRight="2dp"
+      android:text="Sample Text" />
+  <TextView
+     android:layout_toRightOf="@+id/DictonaryRowToWord"
+     android:id="@+id/SnonymWord"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:textColor="@color/MyGray"
+     android:textSize="10dp"
+     android:paddingRight="2dp"
+     android:text="Sample Text" />
+  <Button android:clickable="true"
+     android:layout_toLeftOf="@+id/DictionaryListRowDelete"
+     android:id="@+id/DictionaryListRowEdit" 
+      android:visibility="invisible"
+     android:layout_width="25dp"
+     android:paddingRight="2dp"
+     android:layout_height="25dp"
+     android:background="@drawable/edit" />
+  <Button android:clickable="true"
+      android:layout_alignParentRight="true"
+      android:visibility="invisible"
+      android:id="@+id/DictionaryListRowDelete"
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:background="@drawable/trash" />
+</RelativeLayout>
+<!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/list_item_bg"
+    android:layout_height="wrap_content">
+  
+<ImageView
+        android:id="@+id/list_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="6dp"
+        android:src="@drawable/listitem"
+        android:background="@drawable/list_icon_bg" />
+<LinearLayout
+        android:id="@+id/LinearLayoutDictionaryListRow"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/list_icon">
+        <TextView
+            android:id="@+id/DictonaryRowWordID"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/MyTextColor"
+            android:textSize="1dp"
+            android:paddingRight="6dp"
+            android:text="" />
+        <TextView
+            android:id="@+id/DictonaryRowWord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/MyGray"
+            android:textSize="12dp"
+            android:paddingRight="6dp"
+            android:text="Sample Text" />
+        <TextView
+            android:id="@+id/DictonaryRowToWord"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/MyGray"
+            android:textSize="12dp"
+            android:paddingRight="6dp"
+            android:text="Sample Text" />
+    </LinearLayout>
+<LinearLayout
+        android:id="@+id/LinearLayoutDictionaryListRowButtonDelete"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/LinearLayoutDictionaryListRow">
+        <ImageView
+            android:id="@+id/DictionaryListRowDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/trash" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/LinearLayoutDictionaryListRowButtonEdit"
+        android:visibility="invisible"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/LinearLayoutDictionaryListRowButtonDelete">
+        <ImageView
+            android:id="@+id/DictionaryListRowEdit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/edit" />
+    </LinearLayout>
+</RelativeLayout>-->

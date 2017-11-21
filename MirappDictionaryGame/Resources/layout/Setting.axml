@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyBacgroundWhite">
+  <Switch
+      android:text="Sound Effects "
+      android:textColor="@color/MyGray"
+      android:id="@+id/SwitchSoundEffects"
+      android:textSize="12dp"
+      android:layout_marginTop="20dp"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:checked="true"
+      android:textOn="YES"
+      android:textOff="NO" />
+  <Button
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="70dp"
+     android:text="Delete Favorites"
+     android:textSize="12dp"
+     android:background="@color/MyRed"
+     android:textColor="@color/MyTextColorWhite"
+     android:layout_width="200dp"
+     android:layout_height="30dp"
+     android:visibility="visible"
+     android:id="@+id/DeleteFavorites" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="120dp"
+      android:text="Export Favorites"
+      android:textSize="12dp"
+      android:background="@color/MyDarkBlue"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:visibility="visible"
+      android:id="@+id/ExportFavorites" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="180dp"
+      android:text="Delete Dictonary"
+      android:textSize="12dp"
+      android:background="@color/MyRed"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="30dp"
+      android:id="@+id/DictionaryDelete" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="240dp"
+      android:text="Load Dictonary"
+      android:textSize="12dp"
+      android:background="@color/MyDarkBlue"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="40dp"
+      android:id="@+id/DictionaryLoad" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="300dp"
+      android:text="Delete Scores"
+      android:textSize="12dp"
+      android:background="@color/MyRed"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="40dp"
+      android:id="@+id/ScoreDelete" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="360dp"
+      android:text="Delete Levels"
+      android:textSize="12dp"
+      android:background="@color/MyDarkBlue"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="40dp"
+      android:id="@+id/LevelDelete" />
+  <Button
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="420dp"
+      android:text="Send Favorite Words"
+      android:textSize="12dp"
+      android:background="@color/MyRed"
+      android:textColor="@color/MyTextColorWhite"
+      android:layout_width="200dp"
+      android:layout_height="40dp"
+      android:id="@+id/SendFavoriteWords" />
+  <TextView
+      android:layout_centerHorizontal="true"
+      android:text="2222 Word exists"
+      android:textColor="@color/MyRed"
+      android:layout_marginTop="480dp"
+      android:textSize="12dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/SettingCount" />
+  <ProgressBar
+      android:layout_marginTop="500dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="5dp"
+      android:id="@+id/LoadingProgressBar" />
+</RelativeLayout>

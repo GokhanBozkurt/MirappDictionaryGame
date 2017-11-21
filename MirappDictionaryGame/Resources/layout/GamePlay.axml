@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MyBacgroundWhite">
+    <Button
+        android:text="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/GameTimeButtonRound"
+        android:textSize="20dp"
+        android:textColor="@color/MyBacgroundWhite"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/DictionaryGameTimeButton" />
+    <ImageView
+        android:layout_marginRight="220dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife7"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="185dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife6"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="150dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="115dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="80dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="45dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:background="@drawable/logo"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameLife1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_home_black_48dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGametoMain"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp" />
+    <Button
+        android:layout_marginTop="80dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/GameFromButtonRound"
+        android:textSize="17dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameFROMButton"
+        android:text="1"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:text="2"
+        android:elevation="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/GameToButtonRound"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton1" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="190dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:background="@drawable/GameToButtonRound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton2" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:background="@drawable/GameToButtonRound"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton3" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/GameToButtonRound"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton4" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/GameToButtonRound"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton5" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/GameToButtonRound"
+        android:layout_marginBottom="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictionaryGameToButton6" />
+    <Button
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/GameSnonymButtonRound"
+        android:layout_marginBottom="5dp"
+        android:textSize="13dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        android:id="@+id/DictionaryGameSnonymWordButton" />
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/MyRed"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp">
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 11"
+            android:id="@+id/GamePlayGameLevel"
+            android:textColor="@color/MyTextColorWhite" />
+        <TextView
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_centerHorizontal="true"
+            android:id="@+id/GamePlayGameScore"
+            android:textColor="@color/MyTextColorWhite" />
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:text="11 Word"
+            android:id="@+id/GamePlayGameWordCount"
+            android:textColor="@color/MyTextColorWhite"
+            android:layout_width="wrap_content" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:id="@+id/GameNewLevelAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@anim/anim_NewLevel" />
+    <Button
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:text="Add To Favorite"
+        android:visibility="visible"
+        android:textSize="11dp"
+        android:textColor="@color/MyGreen"
+        android:background="@color/MyBacgroundWhite"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/AddToFavorite"
+        android:shadowColor="#f0ffffff" />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="Wrong Word"
+        android:visibility="visible"
+        android:textSize="13dp"
+        android:textColor="@color/MyBacgroundWhite"
+        android:background="@color/MyGreen"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/DictionaryGameResult"
+        android:shadowColor="#f0ffffff" />
+</RelativeLayout>

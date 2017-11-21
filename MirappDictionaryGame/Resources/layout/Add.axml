@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/AddRelativeLayout">
+        <LinearLayout
+            android:id="@+id/viewA"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/MyLightGray"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <!--<Spinner
+            android:id="@+id/spinner"
+            android:background="@color/dark_gray"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:popupElevation="2dp"
+            android:popupBackground="@color/dark_gray"
+            android:layout_marginTop="30dp"
+            android:prompt="@string/language_prompt" />-->
+                <android.support.design.widget.TextInputLayout
+                    android:layout_marginTop="10dp"
+                    android:background="@color/MyBacgroundWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <AutoCompleteTextView
+                        android:id="@+id/WordTextAutoComplete"
+                        android:textColor="@color/MyTextColor"
+                        android:background="@color/MyBacgroundWhite"
+                        android:layout_width="fill_parent"
+                        android:hint="Word"
+                        android:layout_height="wrap_content"
+                        android:scrollbarStyle="outsideOverlay"
+                        android:textSize="20dip" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/MyBacgroundWhite"
+                    android:layout_marginTop="70dp"
+                    android:layout_height="wrap_content">
+                    <AutoCompleteTextView
+                        android:id="@+id/TranslatedWordText"
+                        android:textColor="@color/MyTextColor"
+                        android:background="@color/MyBacgroundWhite"
+                        android:layout_width="fill_parent"
+                        android:hint="Translated Word"
+                        android:layout_height="wrap_content"
+                        android:scrollbarStyle="outsideOverlay"
+                        android:textSize="20dip" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/MyBacgroundWhite"
+                    android:layout_marginTop="130dp"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:textColor="@color/MyTextColor"
+                        android:background="@color/MyBacgroundWhite"
+                        android:selectAllOnFocus="true"
+                        android:textSize="20dp"
+                        android:hint="Snonym Word"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SnonymWord" />
+                </android.support.design.widget.TextInputLayout>
+                <Switch
+                    android:text="Add to Favorites"
+                    android:textColor="@color/MyGray"
+                    android:id="@+id/AddFavorites"
+                    android:textSize="12dp"
+                    android:layout_marginTop="170dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:checked="true"
+                    android:textOn="YES"
+                    android:textOff="NO" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/DicSaveFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_action_content_save"
+        app:layout_anchor="@id/viewA"
+        app:layout_anchorGravity="bottom|right|end" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/DicClearFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_bubble_chart_white_24dp"
+        app:layout_anchor="@id/viewA"
+        app:layout_anchorGravity="bottom|left|end" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/AddToListFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/list_white"
+        app:fab_colorNormal="@color/MyRed"
+        app:fab_colorPressed="@color/accent_pressed"
+        app:fab_colorRipple="@color/ripple" />
+</android.support.design.widget.CoordinatorLayout>

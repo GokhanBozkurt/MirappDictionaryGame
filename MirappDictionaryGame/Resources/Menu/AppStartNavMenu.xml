@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_game"
+      android:icon="@drawable/ic_send_black"
+      android:title="Game" />
+    <!--<item
+      android:id="@+id/nav_add"
+      android:icon="@drawable/ic_send_black"
+      android:title="Add" />-->
+    <item
+      android:id="@+id/nav_List"
+      android:icon="@drawable/ic_send_black"
+      android:title="List" />
+    <item
+      android:id="@+id/nav_Setting"
+      android:icon="@drawable/ic_send_black"
+      android:title="Setting" />
+    <item
+      android:id="@+id/nav_About"
+      android:icon="@drawable/ic_send_black"
+      android:title="About" />
+    <item
+     android:id="@+id/nav_Scores"
+     android:icon="@drawable/ic_send_black"
+     android:title="Scores" />
+
+  </group>
+  <!--<item android:title="Review">
+    <menu>
+      <item
+        android:title="Post" />
+      <item
+        android:title="Ratings" />
+    </menu>
+  </item>-->
+</menu>

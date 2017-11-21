@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp">
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/ScoreRowItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/MyTextColor"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"
+        android:text="11" />
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/ScoreDateRowItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/MyTextColor"
+        android:textSize="13dp"
+        android:paddingRight="10dp"
+        android:text="3343454545" />
+</RelativeLayout>

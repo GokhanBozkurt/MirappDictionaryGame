@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <Button
+        android:text="Start"
+        android:textSize="20dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/testbutton" />
+    <TextView
+        android:id="@+id/testText"
+        android:textColor="@color/MyGameOverRed"
+        android:layout_height="wrap_content"
+        android:layout_width="170dp"
+        android:text="hello" />
+</LinearLayout>

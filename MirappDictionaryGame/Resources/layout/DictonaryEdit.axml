@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/MyBacgroundWhite"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="DİL"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditLangugage" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="5dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="FROM"
+        android:textSize="15dp"
+        android:layout_width="fill_parent"
+        android:textColor="@color/MyGray"
+        android:layout_height="wrap_content"
+        android:id="@+id/FROMText" />
+    <EditText
+        android:id="@+id/DictonaryEditWordText"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MyGray"
+        android:scrollbarStyle="outsideOverlay"
+        android:textSize="18dip"
+        android:selectAllOnFocus="true" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="5dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="TO"
+        android:textSize="15dp"
+        android:textColor="@color/MyGray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TOText" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:textColor="@color/MyTextColorWhite"
+        android:textSize="18dp"
+        android:background="@color/MyGray"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditTranslatedWordText" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="SNONYM"
+        android:textSize="15dp"
+        android:textColor="@color/MyGray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:textColor="@color/MyTextColorWhite"
+        android:textSize="18dp"
+        android:background="@color/MyGray"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditSnonymWord" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="UPDATE"
+        android:textColor="@color/MyTextColorWhite"
+        android:background="@color/MyDarkBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditUpdateButton" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="DELETE"
+        android:background="@color/MyRed"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditDeleteButton" />
+    <TextView
+        android:background="@color/MyBacgroundWhite"
+        android:textSize="15dp"
+        android:textColor="@color/MyTextColorWhite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="CANCEL"
+        android:textColor="@color/MyTextColorWhite"
+        android:background="@color/MyGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DictonaryEditCancelButton" />
+</LinearLayout>

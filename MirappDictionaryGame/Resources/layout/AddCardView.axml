@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="5dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:layout_gravity="center_horizontal"
+        style="@style/MyCardViewStyle">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/nav_bg"
+                android:id="@+id/imageView" />
+            <TextView
+                android:text="Dil"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/MyGray"
+                android:layout_marginTop="200dp"
+                android:id="@+id/Langugae" />
+            <Spinner
+                android:id="@+id/spinner"
+                android:background="@color/MyBacgroundWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:popupElevation="2dp"
+                android:layout_marginTop="225dp"
+                android:prompt="@string/language_prompt" />
+            <TextView
+                android:text="From"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20dp"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="250dp"
+                android:textColor="@color/MyGray"
+                android:layout_height="wrap_content" />
+            <AutoCompleteTextView
+                android:id="@+id/WordTextAutoComplete"
+                android:layout_marginTop="275dp"
+                android:textColor="@color/MyTextColor"
+                android:background="@color/MyBacgroundWhite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarStyle="outsideOverlay"
+                android:textSize="20dip"
+                android:selectAllOnFocus="true" />
+            <TextView
+                android:text="To"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="300dp"
+                android:textSize="20dp"
+                android:textColor="@color/MyGray"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TOText" />
+            <EditText
+                android:layout_width="fill_parent"
+                android:textColor="@color/MyTextColor"
+                android:background="@color/MyBacgroundWhite"
+                android:layout_marginTop="325dp"
+                android:selectAllOnFocus="true"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/TranslatedWordText" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <com.refractored.fab.FloatingActionButton
+        android:id="@+id/DicSaveFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_content_save" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/DictonaryToolbarBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/MyGreen"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+</RelativeLayout>

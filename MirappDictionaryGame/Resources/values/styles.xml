@@ -1,0 +1,57 @@
+﻿<resources>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="colorControlNormal">#0C92CF</item>
+    <!--<item name="colorPrimary">@color/MyRed</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+    <item name="colorAccent">#0C92CF</item>-->
+    <item name="colorPrimary">#E91E63</item>
+    <item name="colorPrimaryDark">#C2185B</item>
+    <item name="colorAccent">#00BCD4</item>
+    <item name="android:textColor">@color/MyTextColorWhite</item>
+    <item name="android:statusBarColor">@color/MyRed</item>
+
+  </style>
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorPrimary">@color/MyBlue</item>
+    <item name="colorPrimaryDark">@color/MyDarkBlue</item>
+    <item name="android:textColor">@color/MyTextColorWhite</item>
+    <item name="android:statusBarColor"> @android:color/transparent</item>
+    <item name="colorAccent">@color/accent</item>
+  </style>
+  <style name="MyTheme.Light" parent="android:Theme.Material.Light">
+    <item name="android:textColorPrimary">@color/MyTextColorWhite</item>
+    <item name="android:colorPrimary">@color/MyRed</item>
+    <item name="android:colorPrimaryDark">#2C3E50</item>
+    <item name="android:colorAccent">#B455B6</item>
+  </style>
+
+  <style name="AppThemeRedNoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:textColorPrimary">@color/MyTextColorWhite</item>
+    <item name="colorPrimary">@color/MyRed</item>
+    <item name="colorPrimaryDark">@color/MyDarkBlue</item>
+    <item name="android:textColor">@color/MyTextColorWhite</item>
+    <item name="android:statusBarColor"> @android:color/transparent</item>
+    <item name="colorAccent">@color/MyGreen</item>
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+  </style>
+  <style name="MyTheme.Splash" parent ="@android:style/Theme.Holo.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>   
+  </style>
+
+  <style name="MyCardViewStyle" parent="Theme.AppCompat.Light">
+    <item name="cardCornerRadius">15dp</item>
+    <item name="cardElevation">4dp</item>
+    <item name="contentPaddingBottom">4dp</item>
+    <item name="contentPaddingTop">4dp</item>
+    <item name="contentPaddingLeft">6dp</item>
+    <item name="contentPaddingRight">6dp</item>
+    <item name="cardBackgroundColor">@color/MyLightGray</item>
+  </style> 
+</resources>

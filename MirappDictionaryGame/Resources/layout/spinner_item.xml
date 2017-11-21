@@ -1,0 +1,7 @@
+﻿<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="75dp"
+    android:layout_height="25dp"
+    android:textSize="11dp"
+    android:ellipsize="middle"
+    android:textColor="@color/MyTextColorWhite" />

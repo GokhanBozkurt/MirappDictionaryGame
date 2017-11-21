@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/DictonaryGameStartFabLayoutFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <!--<com.refractored.fab.FloatingActionButton
+      android:id="@+id/DictonaryGameStartFabLayoutListFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/newList"
+        android:visibility="invisible"
+        app:fabSize="mini" />-->
+
+  <ImageView
+     android:id="@+id/DictonaryGameStartEasy"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_gravity="bottom|end" 
+       android:layout_margin="140dp"
+       android:src="@drawable/easy"
+       android:visibility="visible"
+        />
+  
+  <!--app:backgroundTint="@color/colorFAB"-->
+
+  <ImageView
+     android:id="@+id/DictonaryGameStartMedium"
+       android:layout_width="match_parent"
+      android:layout_height="match_parent"
+       android:layout_gravity="bottom|end"
+       android:layout_margin="140dp"
+       android:src="@drawable/medium"
+       android:visibility="invisible"
+        />
+
+  <ImageView
+    android:id="@+id/DictonaryGameStartHard"
+      android:layout_width="match_parent"
+     android:layout_height="match_parent"
+      android:layout_gravity="bottom|end"
+      android:layout_margin="140dp"
+      android:src="@drawable/hard"
+      android:visibility="invisible"
+        />
+  
+  <!--<com.refractored.fab.FloatingActionButton
+      android:id="@+id/DictonaryGameStartFabLayoutNewFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/newAdd"
+        android:visibility="invisible"
+        app:fabSize="mini" />-->
+
+  <!--<com.refractored.fab.FloatingActionButton
+      android:id="@+id/DictonaryGameStartFabLayoutFabSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/newsetting"
+        android:visibility="invisible"
+        app:fabSize="mini" />-->
+  
+</FrameLayout>

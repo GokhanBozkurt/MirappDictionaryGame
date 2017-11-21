@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:background="@drawable/list_item_bg"
+   android:layout_height="wrap_content" android:padding="6dp">
+
+  
+  <TextView
+     android:layout_alignParentTop="true"
+     android:layout_alignParentLeft="true"
+     android:id="@+id/listwordItemWord"
+     android:layout_width="110dp"
+     android:layout_height="wrap_content"
+     android:textColor="@color/MyGray"
+     android:textSize="12dp"
+     android:paddingRight="2dp"
+     android:text="" />
+  <TextView
+      android:layout_toRightOf="@+id/listwordItemWord"
+      android:id="@+id/listwordItemTranslatedWord"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/MyGray"
+      android:textSize="12dp"
+      android:paddingRight="2dp"
+      android:text="" />
+  <TextView
+     android:layout_toRightOf="@+id/listwordItemTranslatedWord"
+     android:id="@+id/listwordItemSnonymWord"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:textColor="@color/MyGray"
+     android:textSize="10dp"
+     android:paddingRight="2dp"
+     android:text="" />
+  <TextView
+     android:layout_toRightOf="@+id/listwordItemSnonymWord"
+       android:id="@+id/listwordItemWordId"
+       android:layout_width="40dp"
+       android:layout_height="wrap_content"
+       android:textColor="@color/MyGray"
+       android:textSize="12dp"
+       android:paddingRight="2dp"
+       android:text="" ></TextView>
+</RelativeLayout>

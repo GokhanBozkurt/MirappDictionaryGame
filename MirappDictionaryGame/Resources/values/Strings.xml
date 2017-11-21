@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="language_prompt">Dil Seçiniz</string>
+  <string name="ApplicationName">Mirapp Dictionary And Game</string>
+   <string-array name="Languages">
+        <item>Türkçe</item>
+        <item>İngilizce</item>
+    </string-array>
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+
+  <string name="Game">Game</string>
+  <string name="Add">Add</string>
+  <string name="List">List</string>
+  <string name="Setting">Setting</string>
+  <string name="About">About</string>
+  <string name="Scores">Scores</string>
+
+  <string-array name="ListOrderSpinner">
+    <item>DateTime</item>
+    <item>Name</item>
+  </string-array>
+  
+</resources>

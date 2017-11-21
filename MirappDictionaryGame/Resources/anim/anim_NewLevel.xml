@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+android:oneshot="true"
+>
+<item
+android:drawable="@drawable/NewLevel_N"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_e"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_w"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_l"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_e2"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_v"
+android:duration="200"/>
+<item
+android:drawable="@drawable/NewLevel_e3"
+android:duration="200"/>
+  <item
+android:drawable="@drawable/NewLevel_l"
+android:duration="200"/>
+</animation-list>
